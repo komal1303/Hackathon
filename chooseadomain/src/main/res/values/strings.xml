@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Choose a domain</string>
+    <string name="Physician">Physician</string>
+    <string name="physician">Physician</string>
+    <string name="Gynecologist">Gynecologist</string>
+    <string name="opthalmologist">Opthalmologist</string>
+    <string name="gynecologist">Gynecologist</string>
+    <string name="paediatrician">Paediatrician</string>
+    <string name="Paediatrician">Paediatrician</string>
+    <string name="todo">TODO</string>
+</resources>

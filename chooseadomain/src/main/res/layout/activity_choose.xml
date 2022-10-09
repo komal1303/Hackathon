@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleY="0.5"
+    tools:context=".Choose">
+
+    <Button
+        android:id="@+id/Physician"
+        android:layout_width="237dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/physician"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck"
+        tools:text="@string/Physician" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="280dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="228dp"
+        android:text="@string/gynecologist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Physician"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:text="@string/Gynecologist" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="82dp"
+        android:text="@string/opthalmologist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:layout_constraintVertical_bias="0.454"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:text="Opthalmologist" />
+
+    <Button
+        android:id="@+id/paediatrician"
+        android:layout_width="286dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/Paediatrician"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="93dp"
+        android:layout_height="91dp"
+        android:contentDescription="@string/todo"
+        tools:ignore="ImageContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
